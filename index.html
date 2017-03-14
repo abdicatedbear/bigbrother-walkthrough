@@ -53,9 +53,9 @@
                             <div class="tabs-panel is-active" id="day-1">
                                 <div>
                                     <div>
-                                        <p class="lead">
-                                            <b class="g">About the walkthrough</b>
-                                        </p>
+                                        <h2>
+                                            About the walkthrough
+                                        </h2>
                                         <p>
                                             I'll help you find all the content in 0.2.1 but i'm not telling you everything explicitly, what i'm not explaining / telling can be found in "Opportunities"
                                             description in-game or by trying different answers when talking to people.
@@ -69,10 +69,19 @@
                                             <br>
                                             Enjoy ! ( and sorry for all the typos / bad english :d )
                                         </p>
+                                
+                                        <div><code>Some text ...</code> = Dialogue</div>
+                                        <div><span class="stat-nothing">nothing</span>
+                                 = No effect</div>
+                                        <div><span class="stat-good">shyness</span>
+                                 = Stat affected positively</div>
+                                        <div><span class="stat-bad">mood</span>
+                                 = Stat affected negatively</div>
+                                        <br>
                                     </div>
                                     <div>
                                         <p class="lead">
-                                            Day 1, Breakfast (just after intro)
+                                            Day 1, Breakfast
                                         </p>
                                         <p>
                                             No important choice here.
@@ -85,209 +94,226 @@
                                         <p>
                                             For the first 2 weeks of the walktrough, i'll give general tips on how to reduce shyness, increase mood & authority.
                                         </p>
-                                        <b>Mom</b> (her room) : selecting "<b>Open the door</b>" will <b class="g">reduce</b> mom's shyness.
-                                        <ul>
-                                            <li><b>Nice lingerie</b> : <b class="g">reduce</b> shyness and <b class="g">increase</b> mom's mood</li>
-                                            <li><b>Awesome butt!</b> : <b class="g">reduce</b> shyness and <b class="r">decrease</b> mom's mood</li>
-                                            <li><b>Oh sorry...</b> : do nothing</li>
-                                        </ul>
-                                        <b>Lisa</b> (her room) : selecting "<b>Open the door</b>" will <b class="g">reduce</b> Lisa's shyness and <b class="r">reduce</b> her mood. (do it)
-                                        <ul>
-                                            <li>Following interactions have no effect.</li>
-                                        </ul>
-                                        <b>Alice</b> : Talk about blog (<b>not possible if alice didn't talk about her blog during breakfast</b>, not important)
-                                        <ul>
-                                            <li>Do not answer Really? when she say "Do you know that we lost a lot of our items with moving?", other option are ok.</li>
-                                        </ul>
-                                        <b>Lounge</b>
-                                        <ul>
-                                            <li><b>Wash dishes : </b> Washing dishes after breakfast <b class="g">increase</b> alice's mood and add <b>+1 hour</b> (do it)</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/mom.png" class="circle small lg float-left">
+                                            Select <code>Open the door</code> <span class="stat-good">shyness</span>
+                                
+                                            <br>
+                                            <div><code>Nice lingerie</code> <span class="stat-good">shyness</span>
+                                 <span class="stat-good">mood</span>
+                                </div>
+                                            <div><code>Awesome butt!</code> <span class="stat-good">shyness</span>
+                                 <span class="stat-bad">mood</span>
+                                </div>
+                                            <div><code>Oh sorry...</code> <span class="stat-nothing">nothing</span>
+                                </div>
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/lisa.png" class="circle small lg float-left">
+                                            Select <code>Open the door</code> <span class="stat-good">shyness</span>
+                                 <span class="stat-bad">mood</span>
+                                
+                                            <br>
+                                            <div>Following interactions have no effect.</div>
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/alice.png" class="circle small lg float-left">
+                                            <code>Talk about blog</code> (<b>not possible if alice didn't talk about her blog during breakfast</b>, not important)
+                                            <br>
+                                            <div>Do not answer <code>Really?</code> when she say <code>Do you know that we lost a lot of our items with moving?</code>, other options are ok.</div>
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/lounge.png" class="circle small lg float-left">
+                                            <div><code>Wash dishes</code> Alice <span class="stat-good">mood</span>
+                                 and add <b>+1 hour</b></div>
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             11:00
                                         </p>
-                                        <b>Alice</b> (terrace) : Talk about her book
-                                        <ul>
-                                            <li>Choices doesn't really matter here, ask what you want.</li>
-                                        </ul>
-                                        <b>Go to alice room</b> : Look for book
-                                        <ul>
-                                            <li>it's not random, the book is hidden in the <b>wardrobe</b>.</li>
-                                            <li><b>+1 hour</b></li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/alice.png" class="circle small lg float-left">
+                                            Talk about her book
+                                            <div>Choices doesn't really matter here, ask what you want.</div>
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/alice-room.png" class="circle small lg float-left">
+                                            Look for book
+                                            <div>It's not random, the book is hidden in the <b>wardrobe</b>.</div>
+                                            <div><b>+1 hour</b></div>
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             12:00
                                         </p>
-                                        <b>My room</b> : Unpack boxes
-                                        <ul>
-                                            <li><b>+1 Hour</b></li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/max-room.png" class="circle small lg float-left">
+                                            Unpack boxes
+                                            <div><b>+1 hour</b></div>
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             13:00
                                         </p>
-                                        <b>Lounge</b> : Look for cam
-                                        <ul>
-                                            <li>Nothing else</li>
-                                        </ul>
-                                        <b>My room</b> : Turn on laptop
-                                        <ul>
-                                            <li><b>Read about the cameras</b></li>
-                                            <li><b>+1 hour</b></li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/lounge.png" class="circle small lg float-left">
+                                            Look for cam
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/max-room.png" class="circle small lg float-left">
+                                            Turn on laptop
+                                            <div><code>Read about the cameras</code></div>
+                                            <div><b>+1 hour</b></div>
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             14:00
                                         </p>
-                                        <b>My room</b> : Turn on laptop
-                                        <ul>
-                                            <li><b>Learn about the alice's book</b></li>
-                                            <li><b>+1 hour</b></li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/max-room.png" class="circle small lg float-left">
+                                            Turn on laptop
+                                            <div><b>Learn about the alice's book</b></div>
+                                            <div><b>+1 hour</b></div>
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             15:00
                                         </p>
-                                        <ul>
-                                            <li>Wait (<b>+1 hour</b>)</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             Lisa is back from school.
                                         </p>
-                                        <ul>
-                                            <li>Nothing special here.</li>
-                                        </ul>
+                                        <p>Nothing special here.</p>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             16:00
                                         </p>
-                                        <b>Lisa </b> : talk
-                                        <ul>
-                                            <li>lots of option but i'm pretty sure they have no major impact so feel free to do as you want.</li>
-                                        </ul>
-                                        <ul>
-                                            <li>Wait (<b>+1 hour</b>)</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/lisa.png" class="circle small lg float-left">
+                                            Talk
+                                            <div>lots of option but i'm pretty sure they have no major impact so feel free to do as you want.</div>
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             17:00
                                         </p>
-                                        <b>Lisa </b> : talk
-                                        <ul>
-                                            <li>Nothing special here, pushing too hard on tanning naked will <b class="r">decrease</b> her mood but if you apologize just after it will <b class="g">increase</b> it </li>
-                                            <li><b>+1 hour</b></li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/lisa.png" class="circle small lg float-left">
+                                            Talk
+                                            <div>Nothing special here, pushing too hard on tanning naked will <span class="stat-bad">mood</span>
+                                 but if you apologize just after it will <span class="stat-good">mood</span>
+                                </div>
+                                            <div><b>+1 hour</b></div>
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             18:00
                                         </p>
-                                        <b>Lisa </b> : talk
-                                        <ul>
-                                            <li>
-                                                just do it, nothing special here.
-                                            </li>
-                                        </ul>
-                                        <ul>
-                                            <li>Wait (<b>+1 hour</b>)</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/lisa.png" class="circle small lg float-left">
+                                            Talk
+                                            <div>just do it, nothing special here.</div>
+                                            <div><b>+1 hour</b></div>
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             Dinner
                                         </p>
-                                        <ul>
-                                            <li>
-                                                Answer "<b>What kind of friend? (wink)</b>" when asked. After that nothing special, choose what you want.
-                                            </li>
-                                        </ul>
+                                        <p>
+                                            Answer <code>What kind of friend? (wink)</code> when asked. After that nothing special, choose what you want.
+                                        </p>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             20:00
                                         </p>
-                                        <ul>
-                                            <li>Wait or help with dishes</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                            <img src="./assets/img/dishes.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             21:00
                                         </p>
-                                        <b>Lisa </b> : talk
-                                        <ul>
-                                            <li>
-                                                Nothing special. Do as you want.
-                                            </li>
-                                            <li><b>+1 hour</b></li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/lisa.png" class="circle small lg float-left">
+                                            Talk
+                                            <div>Nothing special. Do as you want.</div>
+                                            <div><b>+1 hour</b></div>
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             22:00
                                         </p>
-                                        <b>Mom</b> : talk, ask for momey
-                                        <ul>
-                                            <li>
-                                                <i>(at this point we want more money as possible)</i>
-                                            </li>
-                                            <li>
-                                                Choose <b>I am ashamed, but i really needed money...</b>. (<b class="r">-2 mom's patience</b>)
-                                            </li>
-                                            <li>
-                                                After : <b>Maybe i can do something</b>
-                                            </li>
-                                            <li>
-                                                Choose pool and then <b>Maybe i can do something</b> and <u>repeat until you have all tasks</u>.
-                                            </li>
-                                            <li>
+                                        <div class="step">
+                                            <img src="./assets/img/mom.png" class="circle small lg float-left">
+                                            Talk, ask for momey <i>(at this point we want more money as possible)</i>
+                                            <div>
+                                                Choose <code>I am ashamed, but i really needed money...</code> <span class="stat-bad">patience</span>
+                                
+                                                <br>
+                                                After : <code>Maybe i can do something</code>
+                                                <br>
+                                                Choose <code>pool</code> and then <code>Maybe i can do something</code> and <u>repeat until you have all tasks</u>.
+                                                <br>
                                                 You must have <b class="g">280$</b>
-                                            </li>
-                                        </ul>
-                                        <b>My room</b> : turn on laptop
-                                        <ul>
-                                            <li>Online shop -> books : buy <b>Web standards</b></li>
-                                            <li>Order food</li>
-                                        </ul>
+                                            </div>
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/max-room.png" class="circle small lg float-left">
+                                            Turn on laptop
+                                            <div>Online shop -> books : buy <b>Web standards</b></div>
+                                            <div>Order food</div>
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             23:00
                                         </p>
-                                        <b>Mom</b>
-                                        <ul>
-                                            <li>I've ordered food!</li>
-                                        </ul>
-                                        <b>Alice</b>
-                                        <ul>
-                                            <li>Watch TV</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/mom.png" class="circle small lg float-left">
+                                            Talk
+                                            <div><code>I've ordered food!</code></div>
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/alice.png" class="circle small lg float-left">
+                                            Talk
+                                            <div><code>Watch TV</code></div>
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             00:00
                                         </p>
-                                        <b>My room</b>
-                                        <ul>
-                                            <li>
-                                                Sleep
-                                            </li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/max-room.png" class="circle small lg float-left">
+                                            <img src="./assets/img/sleep.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
-                                   <div class="text-right">
-                                       <button type="button" class="button large tab-change" data-tab="day-2" data-tab-id="week-1-tab">Day 2</button>
-                                   </div>
+                                    <div class="text-right">
+                                        <button type="button" class="button large tab-change" data-tab="day-2" data-tab-id="week-1-tab">Day 2</button>
+                                    </div>
                                 </div>
                             </div>
                             <div class="tabs-panel" id="day-2">
@@ -296,245 +322,273 @@
                                         <p class="lead">
                                             Lisa speech
                                         </p>
-                                        <ul>
-                                            <li>
-                                                Nothing special, feel free to answer as you like.
-                                            </li>
-                                        </ul>
+                                        <p>
+                                            Nothing special, feel free to answer as you like.
+                                        </p>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             07:00
                                         </p>
-                                        <b>Lisa </b> (save before if you don't want to take any risk)
-                                        <ul>
-                                            <li>
-                                                <b>Peep from the street</b> We actually don't have any authority on lisa or alice at this point and mom's patience & mood is not a problem, getting caught
+                                        <div class="step">
+                                            <img src="./assets/img/lisa.png" class="circle small lg float-left">
+                                            <code>Peep from the street</code> (save before if you don't want to take any risk)
+                                            <div>
+                                                <i>We actually don't have any authority on lisa or alice at this point and mom's patience & mood is not a problem, getting caught
                                                 is not
-                                                bad, it's actually a good thing, it allow to go trough more persuasion dialogue to increase your stat.
-                                            </li>
-                                        </ul>
-                                        <ul>
-                                            <li>Wait (<b>+1 hour</b>)</li>
-                                        </ul>
+                                                bad, it's actually a good thing, it allow you to go trough more persuasion dialogues to increase your stat.</i>
+                                            </div>
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             08:00
                                         </p>
-                                        <b>Alice </b> (save before if you don't want to take any risk)
-                                        <ul>
-                                            <li>
-                                                <b>Peep from the street</b> We actually don't have any authority on lisa or alice at this point and mom's patience & mood is not a problem, getting caught
-                                                is not
-                                                bad, it's actually a good thing, it allow to go trough more persuasion dialogue to increase your stat.
-                                            </li>
-                                        </ul>
-                                        <b>Mom</b> : talk - ask for money
-                                        <ul>
-                                            <li>I am ashamed,....</li>
-                                        </ul>
-                                        <b>Lisa</b> Talk - <b>As for this case in the morning ...</b>
-                                        <ul>
-                                            <li><b>I want to apologize...</b></li>
-                                            <li>No option. <b class="g">increase</b> mood.</li>
-                                        </ul>
-                                        <b>Mom</b> : talk - <b>As for the case with Liza ...</b>
-                                        <ul>
-                                            <li>No important choice here</li>
-                                            <li><b>+1 hour</b></li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/alice.png" class="circle small lg float-left">
+                                            <code>Peep from the street</code> (save before if you don't want to take any risk)
+                                            <div>
+                                                <i>We actually don't have any authority on lisa or alice at this point and mom's patience & mood is not a problem, getting caught
+                                                    is not
+                                                    bad, it's actually a good thing, it allow you to go trough more persuasion dialogues to increase your stat.</i>
+                                            </div>
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/mom.png" class="circle small lg float-left">
+                                            Talk, ask for money (same thing everyday).
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/lisa.png" class="circle small lg float-left">
+                                            Talk
+                                            <div>
+                                                <code>As for this case in the morning ...</code>
+                                                <br>
+                                                <code>I want to apologize...</code> <span class="stat-good">mood</span>
+                                
+                                            </div>
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/mom.png" class="circle small lg float-left">
+                                            Talk
+                                            <div>
+                                                <code>As for the case with Liza ...</code>
+                                            </div>
+                                            <div>No important choice here</div>
+                                            <div><b>+1 hour</b></div>
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             Breakfast
                                         </p>
-                                        <ul>
-                                            <li>
-                                                Do not defend lisa, <b>watch</b> her. <i>(<b class="r">really important</b>)</i>
-                                            </li>
-                                        </ul>
+                                        <p>
+                                            Do not defend lisa, <code>watch</code> her. <i>(<b class="r">really important</b>)</i>
+                                        </p>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             10:00
                                         </p>
-                                        <b>Mom</b>
-                                        <ul>
-                                            <li>
-                                                Decrease shyness (open the door, nice lingerie)
-                                            </li>
-                                            <li><i>it will be the last time i talk about this interaction, feel free to do what you want at this point. You know the outcome</i></li>
-                                        </ul>
-                                        <b>Lisa</b> (her room) : selecting "<b>Open the door</b>" will <b class="g">reduce</b> Lisa's shyness and <b class="r">reduce</b> her mood. (do it)
-                                        <ul>
-                                            <li>Following interactions have no effect.</li>
-                                            <li><i>it will be the last time i talk about this interaction, feel free to do what you want at this point. You know the outcome</i></li>
-                                        </ul>
-                                        <b>Lounge</b>
-                                        <ul>
-                                            <li><b>Wash dishes : </b> Washing dishes after breakfast <b class="g">increase</b> alice's mood and add <b>+1 hour</b> (do it)</li>
-                                            <li><i>it will be the last time i talk about this interaction. If you have no other interaction to do then do it otherwise it's not worth it.</i></li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/mom.png" class="circle small lg float-left">
+                                            Select <code>Open the door</code> <span class="stat-good">shyness</span>
+                                
+                                            <br>
+                                            <div><code>Nice lingerie</code> <span class="stat-good">shyness</span>
+                                 <span class="stat-good">mood</span>
+                                </div>
+                                            <div><code>Awesome butt!</code> <span class="stat-good">shyness</span>
+                                 <span class="stat-bad">mood</span>
+                                </div>
+                                            <div><code>Oh sorry...</code> <span class="stat-nothing">nothing</span>
+                                </div>
+                                            <br>
+                                            <div><i>It will be the last time i talk about this interaction, feel free to do what you want at this point. You know the outcome</i></div>
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/lisa.png" class="circle small lg float-left">
+                                            Select <code>Open the door</code> <span class="stat-good">shyness</span>
+                                 <span class="stat-bad">mood</span>
+                                
+                                            <br>
+                                            <div>Following interactions have no effect.</div>
+                                            <br>
+                                            <div><i>It will be the last time i talk about this interaction, feel free to do what you want at this point. You know the outcome</i></div>
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/lounge.png" class="circle small lg float-left">
+                                            <div><code>Wash dishes</code> Alice <span class="stat-good">mood</span>
+                                 and add <b>+1 hour</b></div>
+                                            <br>
+                                            <div><i>it will be the last time i talk about this interaction. If you have no other interaction to do then do it otherwise it's not worth it.</i></div>
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             11:00
                                         </p>
-                                        <b>Pool</b>
-                                        <ul>
-                                            <li>Clean pool</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/pool.png" class="circle small lg float-left">
+                                            Clean pool
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             12:00
                                         </p>
-                                        <ul>
-                                            <li>Wait (<b>+1 hour</b>)</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             13:00
                                         </p>
-                                        <b>Alice</b> - Caught smoking at the pool
-                                        <ul>
-                                            <li>
+                                        <div class="step">
+                                            <img src="./assets/img/alice.png" class="circle small lg float-left">
+                                            Caught smoking at the pool
+                                            <div>
                                                 First thing, you can't make her blow you or show her tits or take off her pants. ;)
-                                            </li>
-                                            <li>
-                                                Basically this dialogue is quite easy : you ask her something and mood will <b class="r">decrease</b>, you ask for nothing and it will
-                                                <b class="g">increase</b>.
-                                                We want more money at this point so do not let her go for nothing push for getting something and ask for money.
-                                            </li>
-                                            <li>
+                                            </div>
+                                            <div>
+                                                Basically this dialogue is quite easy : you ask her something and <span class="stat-bad">mood</span>
+                                , you ask for nothing and <span class="stat-good">mood</span>
+                                .
+                                                <br>
+                                                We want more money at this point so do not let her go for nothing push for getting something and <b>ask for money</b>.
+                                            </div>
+                                            <div>
                                                 <b>Do not ask for more than 10$, it's not possible (yet)</b>
-                                            </li>
-                                        </ul>
-                                        <ul>
-                                            <li>Wait (<b>+1 hour</b>)</li>
-                                        </ul>
+                                            </div>
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             14:00
                                         </p>
-                                        <ul>
-                                            <li>Wait (<b>+1 hour</b>)</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             15:00
                                         </p>
-                                        <i>You now have "Web standards" book.</i>
-                                        <br>
-                                        <b>My room</b>
-                                        <ul>
-                                            <li>
-                                                read web standards
-                                            </li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/max-room.png" class="circle small lg float-left">
+                                            <i>You now have "Web standards" book.</i>
+                                            <div>
+                                               <b>Read web standards</b>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             16:00
                                         </p>
-                                        <b>Lisa</b> - talk - <b>As for alex...</b>
-                                        <ul>
-                                            <li>
+                                        <div class="step">
+                                            <img src="./assets/img/lisa.png" class="circle small lg float-left">
+                                            Talk
+                                            <div>
+                                                <code>As for alex...</code>
+                                                <br>
                                                 Nothing important here. feel free to pick what you want. <i>(note: there's few different outcome, i hope we'll see their consequences in future
                                                 update)</i>
-                                            </li>
-                                        </ul>
-                                        <b>Lisa</b> - talk - <b>As for educational achievement...</b>
-                                        <ul>
-                                            <li>
-                                                <b class="r">Do not offer to help her for nothing</b>
-                                            </li>
-                                        </ul>
-                                        <ul>
-                                            <li>Wait (<b>+1 hour</b>)</li>
-                                        </ul>
+                                            </div>
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/lisa.png" class="circle small lg float-left">
+                                            Talk
+                                            <div>
+                                                <code>As for educational achievement...</code>
+                                                <div>
+                                                    <b class="r">Do not offer to help her for nothing</b>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             17:00
                                         </p>
-                                        <ul>
-                                            <li>Wait (<b>+1 hour</b>)</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             18:00
                                         </p>
-                                        <ul>
-                                            <li>Wait (<b>+1 hour</b>)</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             Mom's back from work - dinner
                                         </p>
-                                        <ul>
-                                            <li>
-                                                help alice, don't betray her -- <b>REALLY IMPORTANT</b> --- if you don't you'll be missing content.
-                                            </li>
-                                            <li>
-                                                Answering "<b>You're welcome, little sister!</b>" will <b class="g">increase</b> her mood.
-                                            </li>
-                                            <li>Nothing important during dinner.</li>
-                                        </ul>
+                                        <p>
+                                            <b>Help alice</b>, don't betray her -- <b class="r">REALLY IMPORTANT</b> --- if you don't you'll be missing content.
+                                        </p>
+                                        <p>
+                                            <code>You're welcome, little sister!</code> <span class="stat-good">mood</span>
+                                
+                                        </p>
+                                        <p>Nothing important during dinner.</p>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             20:00
                                         </p>
-                                        <b>My room</b>
-                                        <ul>
-                                            <li>
-                                                read web standards
-                                            </li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/max-room.png" class="circle small lg float-left">
+                                            Read web standards
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             21:00
                                         </p>
-                                        <b>Mom</b>
-                                        <ul>
-                                            <li>Pool is clean</li>
-                                            <li>Watch TV - <b>Do not let her know about the nature of the movie</b></li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/mom.png" class="circle small lg float-left">
+                                            <code>Pool is clean</code>
+                                            <div>Watch TV - <b>Do not let her know about the nature of the movie</b></div>
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             22:00
                                         </p>
-                                        <b>Alice</b> :
-                                        <ul>
-                                            <li>
-                                                Watch TV
-                                            </li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/alice.png" class="circle small lg float-left">
+                                            Watch TV
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             23:00
                                         </p>
-                                        <ul>
-                                            <li>Wait (<b>+1 hour</b>)</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             00:00
                                         </p>
-                                        <ul>
-                                            <li><b>Sleep</b></li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/max-room.png" class="circle small lg float-left">
+                                            <img src="./assets/img/sleep.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div class="text-right">
                                         <button type="button" class="button large tab-change" data-tab="day-3" data-tab-id="week-1-tab">Day 3</button>
@@ -547,237 +601,246 @@
                                         <p class="lead">
                                             06:00
                                         </p>
-                                        <b>Mom</b> : peep from outside
-                                        <ul>
-                                            <li>
-                                                <b>Don't get caught peeping on mom</b>.
-                                            </li>
-                                        </ul>
-                                        <b>My room</b>
-                                        <ul>
-                                            <li>Read</li>
-                                            <li><b>+1 hour</b></li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/mom.png" class="circle small lg float-left">
+                                            <code>Peep from the street</code> (save before if you don't want to take any risk)
+                                            <div>
+                                                Don't get caught peeping on mom, she will not talk to you if she has a bad <span class="stat-bad">mood</span>
+                                 and you will not be able to ask for money.
+                                            </div>
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/max-room.png" class="circle small lg float-left">
+                                            Read web standards
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             07:00
                                         </p>
-                                        <b>Lisa</b> : peep from outside
-                                        <ul>
-                                            <li>
-                                                Good luck !
-                                            </li>
-                                        </ul>
-                                        <ul>
-                                            <li>Wait (<b>+1 hour</b>)</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/lisa.png" class="circle small lg float-left">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             08:00
                                         </p>
-                                        <b>Alice</b> : peep from outside
-                                        <ul>
-                                            <li>
-                                                Good luck !
-                                            </li>
-                                        </ul>
-                                        <b>Mom</b>
-                                        <ul>
-                                            <li>Last time i will speak about it. You should ask for money everyday if you need it.</li>
-                                            <li>Always take the "food" mission and order it at 08:00</li>
-                                            <li>(tips: if you got caught peeping on mom, you can't ask for money)</li>
-                                        </ul>
-                                        <ul>
-                                            <li>Order food</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/alice.png" class="circle small lg float-left">
+                                            <code>Peep from the street</code>
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/mom.png" class="circle small lg float-left">
+                                            <i>Last time i will speak about it. You should ask for money everyday if you need it.</i>
+                                            <br>
+                                            <b>Always take the "food" mission and order it at 08:00</b>
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/max-room.png" class="circle small lg float-left">
+                                            <div>Order food</div>
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             Breakfast
                                         </p>
-                                        <ul>
-                                            <li>
-                                                Feel free to answer as you like.
-                                            </li>
-                                        </ul>
+                                        <p>
+                                            Feel free to answer as you like.
+                                        </p>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             10:00
                                         </p>
-                                        <p>
-                                            As usual "open door".
-                                        </p>
-                                        <ul>
-                                            <li>wait or dishes</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/mom.png" class="circle small lg float-left">
+                                            <img src="./assets/img/lisa.png" class="circle small lg float-left">
+                                            <p>
+                                                As usual "open door".
+                                            </p>
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                            <img src="./assets/img/dishes.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             11:00
                                         </p>
-                                        <b>My room</b>
-                                        <ul>
-                                            <li>
-                                                read web standards
-                                            </li>
-                                            <li><b>+1 hour</b></li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/max-room.png" class="circle small lg float-left">
+                                            Read web standards
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             12:00
                                         </p>
-                                        <b>My room</b> : laptop
-                                        <ul>
-                                            <li>
-                                                read about blogs - answer as you want.
-                                            </li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/max-room.png" class="circle small lg float-left">
+                                            Turn on laptop
+                                            <br>
+                                            <code>Read about blogs</code> Answer as you want.
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             13:00
                                         </p>
-                                        <b>Alice</b> ask about what she smoke
-                                        <ul>
-                                            <li>
-                                                keep talking to her, until you see the "<b>Can i help you?</b>" choice.
-                                            </li>
-                                            <li>
-                                                End the conversation
-                                            </li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/alice.png" class="circle small lg float-left">
+                                            Ask about what she smoke
+                                            <br>
+                                            Keep talking to her, until you see the <code>Can i help you?</code> choice.
+                                            <br>
+                                            End the conversation
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             14:00
                                         </p>
-                                        <b>My room</b> : laptop
-                                        <ul>
-                                            <li>buy cigarette</li>
-                                            <li>
-                                                read about spiders. answer doesn't matter.
-                                            </li>
-                                            <li><b>+1 hour</b></li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/max-room.png" class="circle small lg float-left">
+                                            Turn on laptop
+                                            <br>
+                                            <code>Buy cigarette</code>
+                                            <br>
+                                            <code>Read about spiders. answer doesn't matter.</code>
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             15:00
                                         </p>
-                                        <b>My room</b> : read
-                                        <ul>
-                                            <li>
-                                                web standards - last time
-                                            </li>
-                                            <li><b>+1 hour</b></li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/max-room.png" class="circle small lg float-left">
+                                            Read web standards
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             16:00
                                         </p>
-                                        <b>My room</b> : laptop
-                                        <ul>
-                                            <li>
-                                                do your website
-                                            </li>
-                                            <li><b>+1 hour</b></li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/max-room.png" class="circle small lg float-left">
+                                            Turn on laptop
+                                            <br>
+                                            <code>Do your website</code>
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             17:00
                                         </p>
-                                        <b>My room</b> : laptop
-                                        <ul>
-                                            <li>
-                                                my site - buy 1 advertising package
-                                            </li>
-                                        </ul>
-                                        <b>Alice's room</b>
-                                        <ul>
-                                            <li>Look for cigarettes (i'm not sure about the logic used but it seems to be in nightstand or table, never under bed.. need more data on that)</li>
-                                            <li>if you find cigarettes, set up Alice.</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/max-room.png" class="circle small lg float-left">
+                                            Turn on laptop
+                                            <br>
+                                            <code>My site</code> <b>buy 1 advertising package</b>
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/alice-room.png" class="circle small lg float-left">
+                                            Look for cigarettes
+                                            <br>
+                                            <i>(i'm not sure about the logic used but it seems to be in nightstand or table, never under bed.. need more data on that)</i>
+                                            <br>
+                                            <b>If you find cigarettes</b> <code>Set up Alice</code>
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             18:00
                                         </p>
-                                        <b>Alice's room</b>
-                                        <ul>
-                                            <li>Look for cigarettes (i'm not sure about the logic used but it seems to be in nightstand or table, never under bed.. need more data on that)</li>
-                                            <li>if you already found cigarrete, just <b>wait</b></li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/alice-room.png" class="circle small lg float-left">
+                                            Look for cigarettes
+                                            <br>
+                                            <b>If you already found cigarette, just wait</b>
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             Dinner
                                         </p>
                                         <b>When asked answer</b> :
-                                        <ol>
-                                            <li>
-                                                Congratulations, mom! <b class="g">increase</b> mood
+                                        <div>
+                                            <p>
+                                                <code>Congratulations, mom!</code> <span class="stat-good">mood</span>
                                 
-                                            </li>
-                                            <li>
-                                                Okay, let's stop chasing Lisa...  <b class="g">increase</b> mood
+                                                <br>
+                                                <code>Okay, let's stop chasing Lisa...</code> <span class="stat-good">mood</span>
                                 
-                                            </li>
-                                            <li>End conversation as you like.</li>
-                                        </ol>
+                                            </p>
+                                            <p>End conversation as you like.</p>
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             20:00
                                         </p>
-                                        <ul>
-                                            <li>
-                                               Wait / dishes
-                                            </li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                            <img src="./assets/img/dishes.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             21:00
                                         </p>
-                                        <b>Mom</b> - Talk
-                                        <ul>
-                                            <li>I've ordered food!</li>
-                                            <li>Watch TV</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/mom.png" class="circle small lg float-left">
+                                            Talk
+                                            <br>
+                                            <code>I've ordered food!</code>
+                                            <br>
+                                            <code>Watch TV</code>
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             22:00
                                         </p>
-                                        <b>Alice</b>
-                                        <ul>
-                                            <li>Look for cigarettes</li>
-                                            <li>if you already found cigarrete and set up Alice, <b>watch tv with her</b></li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/alice-room.png" class="circle small lg float-left">
+                                            Look for cigarettes
+                                            <br>
+                                            <b>If you already found cigarette, watch TV with her</b>
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             23:00
                                         </p>
-                                        <b>Possible actions</b>
-                                        <ul>
-                                            <li>Look for cigarettes (if you still didnt set up Alice)</li>
-                                            <li>Help lisa with homework (make mistake)</li>
-                                        </ul>
+                                        <div class="row">
+                                            <div class="small-6 columns">
+                                                <div class="step">
+                                                    <img src="./assets/img/alice-room.png" class="circle small lg float-left">
+                                                    Look for cigarettes
+                                                </div>
+                                            </div>
+                                            <div class="small-6 columns">
+                                                <div class="step">
+                                                    <img src="./assets/img/lisa.png" class="circle small lg float-left">
+                                                    Help lisa with homework
+                                                    <br>
+                                                    <b>Make mistakes</b>, she'll be punished before dinner on a schoolday. <span class="stat-good">authority</span>
+                                
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             00:00
                                         </p>
-                                        <ul>
-                                            <li><b>Sleep</b></li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/max-room.png" class="circle small lg float-left">
+                                            <img src="./assets/img/sleep.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div class="text-right">
                                         <button type="button" class="button large tab-change" data-tab="day-4" data-tab-id="week-1-tab">Day 4</button>
@@ -814,156 +877,147 @@
                                             10:00
                                         </p>
                                         <p>
-                                            As usual "open door". Today liza scene is different (not sure if it has any effect on shyness/mood).
+                                            As usual. Today Lisa scene is different.
                                         </p>
-                                        <b>Pool</b>
-                                        <ul>
-                                            <li>
-                                                Look for spider
-                                            </li>
-                                            <li><b>+1 hour</b></li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/pool.png" class="circle small lg float-left">
+                                            Look for spider
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             11:00
                                         </p>
-                                        <ul>
-                                            <li>
-                                               Wait / dishes
-                                            </li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                            <img src="./assets/img/dishes.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             12:00
                                         </p>
-                                        <ul>
-                                            <li>
-                                                Wait / dishes
-                                            </li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                            <img src="./assets/img/dishes.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             13:00
                                         </p>
-                                        <ul>
-                                            <li>Wait (<b>+1 hour</b>)</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
-                                           Back from shopping
+                                            Back from shopping
                                         </p>
-                                        <ul>
-                                            <li>Answer as you like</li>
-                                        </ul>
+                                        <p>Answer as you like</p>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             14:00
                                         </p>
-                                        <ul>
-                                            <li>Wait (<b>+1 hour</b>)</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             15:00
                                         </p>
-                                        <ul>
-                                            <li>Wait (<b>+1 hour</b>)</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             16:00
                                         </p>
-                                        <ul>
-                                            <li>Wait (<b>+1 hour</b>)</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             17:00
                                         </p>
-                                        <b>Lisa</b>
-                                        <ul>
-                                            <li>Homework - make mistakes</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/lisa.png" class="circle small lg float-left">
+                                            Homework - make mistakes
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             18:00
                                         </p>
-                                        <b>Alice</b>
-                                        <ul>
-                                            <li>give cigarettes</li>
-                                        </ul>
-                                        <ul>
-                                            <li>Wait (<b>+1 hour</b>)</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/alice.png" class="circle small lg float-left">
+                                            Give cigarettes
+                                            <br>
+                                            <i>If you didn't set up Alice yet, don't give them. Set-up alice first then give cigarettes asap.</i>
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             Dinner - meet Eric
                                         </p>
-                                        <ul>
-                                            <li>Keep silent and don't provoke your sisters is the way to go</li>
-                                        </ul>
+                                        <p><b><code>Keep silent</code> and don't provoke your sisters is the way to go</b></p>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             After Dinner - Eric
                                         </p>
-                                        <ul>
-                                            <li>Answer : <b>I understand well</b></li>
-                                            <li>Answer : <b>I think we'll be friends</b></li>
-                                        </ul>
+                                        <p>Answer : <code>I understand well</code></p>
+                                        <p>Answer : <code>I think we'll be friends</code></p>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             20:00
                                         </p>
-                                        <b>Lisa</b>
-                                        <ul>
-                                            <li>dishes</li>
-                                            <li><b>+1 hour</b></li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                            <img src="./assets/img/dishes.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             21:00
                                         </p>
-                                        <ul>
-                                            <li>Wait (<b>+1 hour</b>)</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             22:00
                                         </p>
-                                        <b>Alice</b>
-                                        <ul>
-                                            <li>Watch TV</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/alice.png" class="circle small lg float-left">
+                                            Watch TV
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             23:00
                                         </p>
-                                        <ul>
-                                            <li>Wait (<b>+1 hour</b>)</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             00:00
                                         </p>
-                                        <ul>
-                                            <li><b>Sleep</b></li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/max-room.png" class="circle small lg float-left">
+                                            <img src="./assets/img/sleep.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div class="text-right">
                                         <button type="button" class="button large tab-change" data-tab="day-5" data-tab-id="week-1-tab">Day 5</button>
@@ -978,10 +1032,10 @@
                                         </p>
                                         <ul>
                                             <li>
-                                                As usual. but remember you need the money ! don't get caught today.
+                                                As usual.
                                             </li>
                                             <li>
-                                                You should be ask to take the food quest and order food at 08:00.
+                                                <b>You should be able to take the food quest and order food at 08:00.</b>
                                             </li>
                                         </ul>
                                     </div>
@@ -989,79 +1043,80 @@
                                         <p class="lead">
                                             Breakfast
                                         </p>
-                                        <ul>
-                                            <li>
-                                                Nothing special today
-                                            </li>
-                                        </ul>
+                                        <p>
+                                            Nothing special today
+                                        </p>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             10:00
                                         </p>
-                                        <b>Mom</b>
-                                        <ul>
-                                            <li>I've ordered food!</li>
-                                        </ul>
-                                        <ul>
-                                            <li>
-                                                Wait till dinner & <b>if Alice got punished stop looking for cigarettes, we need her to smoke</b>
-                                            </li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/mom.png" class="circle small lg float-left">
+                                            Talk
+                                            <br>
+                                            <code>I've ordered food!</code>
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/alice.png" class="circle small lg float-left">
+                                            <b>If Alice got punished stop looking for cigarettes, we need her to smoke</b>
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                            Wait till dinner.
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             Dinner
                                         </p>
-                                        <ul>
-                                            <li>
-                                                Nothing special today
-                                            </li>
-                                        </ul>
+                                        <p>
+                                            Nothing special today
+                                        </p>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             20:00
                                         </p>
-                                        <b>Lisa</b>
-                                        <ul>
-                                            <li>dishes</li>
-                                            <li><b>+1 hour</b></li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                            <img src="./assets/img/dishes.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             21:00
                                         </p>
-                                        <b>Mom</b>
-                                        <ul>
-                                            <li>Watch TV</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/mom.png" class="circle small lg float-left">
+                                            Watch TV
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             22:00
                                         </p>
-                                        <b>Alice</b>
-                                        <ul>
-                                            <li>Watch TV</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/alice.png" class="circle small lg float-left">
+                                            Watch TV
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             23:00
                                         </p>
-                                        <ul>
-                                            <li>Wait (<b>+1 hour</b>)</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             00:00
                                         </p>
-                                        <ul>
-                                            <li><b>Sleep</b></li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/max-room.png" class="circle small lg float-left">
+                                            <img src="./assets/img/sleep.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div class="text-right">
                                         <button type="button" class="button large to-top">TO TOP</button>
@@ -1097,7 +1152,7 @@
                                         </p>
                                         <ul>
                                             <li>
-                                                As usual. but remember you need the money ! don't get caught today.
+                                                As usual.
                                             </li>
                                         </ul>
                                     </div>
@@ -1105,90 +1160,109 @@
                                         <p class="lead">
                                             10:00
                                         </p>
-                                        <ul>
-                                            <li>(remember: open the door, etc...)</li>
-                                            <li>
-                                                Wait till 18h / help with dishes
-                                            </li>
-                                            <li><b>Alice will be smoking at 13:00 if you were lucky and found cigarettes early. Ask for money.</b></li>
-                                        </ul>
+                                        <p> As usual.</p>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                            Wait till 13h
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="lead">
+                                            13:00
+                                        </p>
+                                        <div class="step">
+                                            <img src="./assets/img/alice.png" class="circle small lg float-left">
+                                            Alice will be smoking if you were lucky and found cigarettes early.
+                                            <br>
+                                            <b>Ask for money</b>.
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                            Wait till 18h
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             Dinner
                                         </p>
-                                        <ul>
-                                            <li>
-                                                As usual with eric, keep silent and be his friend.
-                                            </li>
-                                        </ul>
+                                        <p>
+                                            As usual with eric, keep silent and be his friend.
+                                        </p>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             20:00
                                         </p>
-                                        <ul>
-                                            <li>
-                                                Buy advertisement pack x1
-                                            </li>
-                                            <li>
-                                                wait / dishes
-                                            </li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/max-room.png" class="circle small lg float-left">
+                                            Turn on laptop
+                                            <br>
+                                            <code>My site</code> <b>buy 1 advertising package</b>
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                            <img src="./assets/img/dishes.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             21:00
                                         </p>
-                                        <b>Lounge</b>
-                                        <ul>
-                                            <li>
-                                                Keep watching, don't turn on the light. <i>(not sure if it do something about the cam or not, so... do it)</i>
-                                            </li>
-                                        </ul>
-                                        <b>Lisa</b>
-                                        <ul>
-                                            <li>mom was looking for you...</li>
-                                            <li>Choices don't matter</li>
-                                            <li><i>(not sure if it do something about the cam or not, so... do it)</i></li>
-                                        </ul>
-                                        <ul>
-                                            <li>Wait (<b>+1 hour</b>)</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/lounge.png" class="circle small lg float-left">
+                                            Keep watching, don't turn on the light.
+                                            <br>
+                                            <i>(not sure if it do something about the cam or not, so... do it)</i>
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/lisa.png" class="circle small lg float-left">
+                                            Talk
+                                            <br>
+                                            <code>Mom was looking for you...</code>
+                                            <br>
+                                            Choices are not important.
+                                            <br>
+                                            <i>(not sure if it do something about the cam or not, so... do it)</i>
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             22:00
                                         </p>
-                                        <b>Mom</b>
-                                        <ul>
-                                            <li>
-                                                Peep from the street. <b>Don't get caught. (save or don't do it)</b>
-                                            </li>
-                                        </ul>
-                                        <b>Alice</b>
-                                        <ul>
-                                            <li>Watch TV</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/mom.png" class="circle small lg float-left">
+                                            <code>Peep from the street</code>
+                                            <br>
+                                            <b>Don't get caught. (save or don't do it)</b>
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/alice.png" class="circle small lg float-left">
+                                            Watch TV
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             23:00
                                         </p>
-                                        <b>Lisa</b>
-                                        <ul>
-                                            <li>
-                                                Homework, make mistake (no reason to do something else unless at max authority - respected)
-                                            </li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/lisa.png" class="circle small lg float-left">
+                                            Help lisa with homework
+                                            <br>
+                                            <b>Make mistakes</b>, she'll be punished before dinner on a schoolday. <span class="stat-good">authority</span>
+                                
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             00:00
                                         </p>
-                                        <ul>
-                                            <li><b>Sleep</b></li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/max-room.png" class="circle small lg float-left">
+                                            <img src="./assets/img/sleep.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div class="text-right">
                                         <button type="button" class="button large tab-change" data-tab="day-7" data-tab-id="week-2-tab">Day 7</button>
@@ -1206,86 +1280,91 @@
                                             <li>
                                                 As usual. but remember you need the money ! don't get caught today.
                                             </li>
-                                            <li>You should be able to take food quest and order it at 08:00</li>
+                                            <li>
+                                                <b>You should be able to take the food quest and order food at 08:00.</b>
+                                            </li>
                                         </ul>
                                     </div>
                                     <div>
                                         <p class="lead">
                                            Breakfast
                                         </p>
-                                        <ul>
-                                            <li>
+                                            <p>
                                                 Nothing special
-                                            </li>
-                                        </ul>
+                                            </p>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             10:00
                                         </p>
-                                        <ul>
-                                            <li>(remember: open the door, etc...)</li>
-                                            <li>
-                                                Wait till 13h / help with dishes
-                                            </li>
-                                        </ul>
+                                        <p> As usual.</p>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                            Wait till 13h
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             13:00
                                         </p>
-                                        <b>Alice</b> - smoking
-                                        <ul>
-                                            <li>(if she's not smoking it mean, you took 3 days to find the cigarettes, she'll be smoking tomorrow)</li>
-                                            <li>
-                                                Ask for money
-                                            </li>
-                                        </ul>
-                                        <ul>
-                                            <li>Wait till dinner</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/alice.png" class="circle small lg float-left">
+                                            Alice is smoking
+                                            <br>
+                                            <b>Ask for money</b>.
+                                            <br>
+                                            <i>(if she's not smoking it mean, you took 3 days to find the cigarettes, she'll be smoking tomorrow)</i>
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                            Wait till dinner
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             20:00
                                         </p>
-                                        <ul>
-                                            <li>Wait / dishes</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                            <img src="./assets/img/dishes.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             21:00
                                         </p>
-                                        <ul>
-                                            <li>Wait (<b>+1 hour</b>)</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             22:00
                                         </p>
-                                        <b>Alice</b>
-                                       <ul>
-                                           <li>Watch TV</li>
-                                       </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/alice.png" class="circle small lg float-left">
+                                            Watch TV
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             23:00
                                         </p>
-                                        <b>Lisa</b>
-                                        <ul>
-                                            <li>Homework - mistake</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/lisa.png" class="circle small lg float-left">
+                                            Help lisa with homework
+                                            <br>
+                                            <b>Make mistakes</b>
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             00:00
                                         </p>
-                                        <ul>
-                                            <li><b>Sleep</b></li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/max-room.png" class="circle small lg float-left">
+                                            <img src="./assets/img/sleep.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div class="text-right">
                                         <button type="button" class="button large tab-change" data-tab="day-8" data-tab-id="week-2-tab">Day 8</button>
@@ -1298,116 +1377,113 @@
                                         <p class="lead">
                                             06:00 -> 08:00
                                         </p>
-                                        <ul>
-                                            <li>
-                                                As usual. but remember you need the money ! don't get caught today.
-                                            </li>
-                                        </ul>
+                                        <p>
+                                            As usual.
+                                        </p>
                                     </div>
                                     <div>
                                         <p class="lead">
-                                           Breakfast
+                                            Breakfast
                                         </p>
-                                        <ul>
-                                            <li>
-                                                Nothing special
-                                            </li>
-                                        </ul>
+                                        <p>
+                                            Nothing special
+                                        </p>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             10:00
                                         </p>
-                                        <ul>
-                                            <li>(remember: open the door, etc...)</li>
-                                            <li>
-                                                Wait till 11 / help with dishes
-                                            </li>
-                                        </ul>
+                                        <p> As usual.</p>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                            Wait
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             11:00
                                         </p>
-                                        <b>Pool</b>
-                                        <ul>
-                                            <li>
-                                                Clean
-                                            </li>
-                                        </ul>
-                                        <ul>
-                                            <li>
-                                                Wait till 13:00
-                                            </li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/pool.png" class="circle small lg float-left">
+                                            Clean pool
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                            Wait till 13:00
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             13:00
                                         </p>
-                                        <b>Alice</b> - smoking
-                                        <ul>
-                                            <li>
-                                                Ask for money
-                                            </li>
-                                        </ul>
-                                        <ul>
-                                            <li>Wait (<b>+1 hour</b>)</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/alice.png" class="circle small lg float-left">
+                                            Alice is smoking
+                                            <br>
+                                            <b>Ask for money</b>.
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                            Wait till dinner
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             20:00
                                         </p>
-                                        <ul>
-                                            wait / dishes
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                            <img src="./assets/img/dishes.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             21:00
                                         </p>
-                                        <b>Lounge</b>
-                                        <ul>
-                                            <li>
-                                                Keep watching, don't turn on the light. <i>(not sure if it do something about the cam or not, so... do it)</i>
-                                            </li>
-                                        </ul>
-                                        <b>Lisa</b>
-                                        <ul>
-                                            <li>mom was looking for you...</li>
-                                            <li>Choices don't matter</li>
-                                            <li><i>(not sure if it do something about the cam or not, so... do it)</i></li>
-                                        </ul>
-                                        <ul>
-                                            <li>Wait (<b>+1 hour</b>)</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/lounge.png" class="circle small lg float-left">
+                                            Keep watching, don't turn on the light.
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/lisa.png" class="circle small lg float-left">
+                                            Talk
+                                            <br>
+                                            <code>Mom was looking for you...</code>
+                                            <br>
+                                            Choices are not important.
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             22:00
                                         </p>
-                                        <b>Alice</b>
-                                        <ul>
-                                            <li>Watch TV (she might not want to speak with you, if she's angry about the spider)</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/alice.png" class="circle small lg float-left">
+                                            Watch TV
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             23:00
                                         </p>
-                                        <b>Lisa</b>
-                                        <ul>
-                                            <li>Homework - mistake</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/lisa.png" class="circle small lg float-left">
+                                            Help lisa with homework
+                                            <br>
+                                            <b>Make mistakes</b>
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             00:00
                                         </p>
-                                        <ul>
-                                            <li><b>Sleep</b></li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/max-room.png" class="circle small lg float-left">
+                                            <img src="./assets/img/sleep.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div class="text-right">
                                         <button type="button" class="button large tab-change" data-tab="day-9" data-tab-id="week-2-tab">Day 9</button>
@@ -1420,131 +1496,133 @@
                                         <p class="lead">
                                             06:00 -> 08:00
                                         </p>
-                                        <ul>
-                                            <li><b>Don't order food today ! you need the money !</b></li>
-                                            <li>
-                                                As usual. but remember you need the money ! don't get caught today.
-                                            </li>
-                                        </ul>
+                                        <p><b>Don't order food today ! you need the money !</b></p>
+                                        <p>
+                                            As usual.
+                                        </p>
                                     </div>
                                     <div>
                                         <p class="lead">
-                                           Breakfast
+                                            Breakfast
                                         </p>
-                                        <ul>
-                                            <li>
-                                                Nothing special
-                                            </li>
-                                        </ul>
+                                        <p>
+                                            Nothing special
+                                        </p>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             10:00
                                         </p>
-                                        <ul>
-                                            <li>(remember: open the door, etc...)</li>
-                                            <li>
-                                                Wait till 13h / help with dishes
-                                            </li>
-                                        </ul>
+                                        <p> As usual.</p>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                            Wait till 13:00
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             13:00
                                         </p>
-                                        <b>Alice</b> - smoking
-                                        <ul>
-                                            <li>
-                                                Ask for money
-                                            </li>
-                                        </ul>
-                                        <ul>
-                                            <li>Wait (<b>+1 hour</b>)</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/alice.png" class="circle small lg float-left">
+                                            Alice is smoking
+                                            <br>
+                                            <b>Ask for money</b>.
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                            Wait till dinner
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             20:00
                                         </p>
-                                        <ul>
-                                            wait / dishes
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                            <img src="./assets/img/dishes.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             21:00
                                         </p>
-                                        <b>Lounge</b>
-                                        <ul>
-                                            <li>
-                                                Keep watching, don't turn on the light. <i>(not sure if it do something about the cam or not, so... do it)</i>
-                                            </li>
-                                        </ul>
-                                        <b>Lisa</b>
-                                        <ul>
-                                            <li>mom was looking for you...</li>
-                                            <li>Choices don't matter</li>
-                                            <li><i>(not sure if it do something about the cam or not, so... do it)</i></li>
-                                        </ul>
-                                        <ul>
-                                            <li>Wait (<b>+1 hour</b>)</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/lounge.png" class="circle small lg float-left">
+                                            Keep watching, don't turn on the light.
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/lisa.png" class="circle small lg float-left">
+                                            Talk
+                                            <br>
+                                            <code>Mom was looking for you...</code>
+                                            <br>
+                                            Choices are not important.
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             22:00
                                         </p>
-                                        <b>Alice</b>
-                                        <ul>
-                                            <li>Watch TV (she might not want to speak with you, if she's angry about the spider)</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/alice.png" class="circle small lg float-left">
+                                            Watch TV
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             23:00
                                         </p>
-                                        <b>Lisa</b>
-                                        <ul>
-                                            <li>Homework - mistake</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/lisa.png" class="circle small lg float-left">
+                                            Help lisa with homework
+                                            <br>
+                                            <b>Make mistakes</b>
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             00:00
                                         </p>
-                                        <ul>
-                                            <li>Wait (<b>+1 hour</b>)</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             01:00
                                         </p>
-                                        <ul>
-                                            <li>Wait (<b>+1 hour</b>)</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             02:00
                                         </p>
-                                        <ul>
-                                            <li>Wait (<b>+1 hour</b>)</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             03:00
                                         </p>
-                                        <b>My room</b> - Laptop
-                                        <ul>
-                                            <li>Collect money. If you did everything correctly you should have more than 550$ even with bad rng</li>
-                                            <li>buy Little black dress</li>
-                                            <li>buy Red swimsuit</li>
-                                        </ul>
-                                        <ul>
-                                            <li>Wait (<b>+1 hour</b>)</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/max-room.png" class="circle small lg float-left">
+                                            Turn on laptop
+                                            <br>
+                                            <p>Collect website money. If you did everything correctly you should have <b>more than 550$</b> even with bad rng</p>
+                                            <p>
+                                                <b>Buy Little black dress, buy Red swimsuit</b>
+                                            </p>
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div class="text-right">
                                         <button type="button" class="button large tab-change" data-tab="day-10" data-tab-id="week-2-tab">Day 10</button>
@@ -1557,84 +1635,95 @@
                                         <p class="lead">
                                             08:00
                                         </p>
-                                        <ul>
-                                            <li>
+                                            <p>
                                                 <b>Congrats, you made enough to buy the robe and the bikini, money is not the top priority now.</b>
-                                            </li>
-                                            <li>
+                                            </p>
+                                            <p>
                                                 Feel free to explore more options.
-                                            </li>
-                                            <li>
-                                                Wait / Explore till <b>15:00</b>
-                                            </li>
-                                        </ul>
+                                            </p>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                            Wait till 15:00
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             15:00
                                         </p>
-                                        <b>Alice</b> - talk
-                                        <ul>
-                                            <li>Give her the robe <b>but not for nothing</b></li>
-                                        </ul>
-                                        <ul>
-                                            <li>Wait (<b>+1 hour</b>)</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/alice.png" class="circle small lg float-left">
+                                            Talk
+                                            <p>Give her the robe <b>but not for nothing</b></p>
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             16:00
                                         </p>
-                                        <b>Lisa</b> - talk
-                                        <ul>
-                                            <li>Give her the bikini <b>but not for nothing</b></li>
-                                            <li>Talk to her again, "As for.."</li>
-                                        </ul>
-                                        <ul>
-                                            <li>Wait (<b>+1 hour</b>)</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/lisa.png" class="circle small lg float-left">
+                                            Talk
+                                            <p>Give her the bikini <b>but not for nothing</b></p>
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/lisa.png" class="circle small lg float-left">
+                                            Talk
+                                            <p><code>As for..</code></p>
+                                        </div>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             20:00
                                         </p>
-                                        <ul>
-                                            <li> Wait / Dishes</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                            <img src="./assets/img/dishes.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             21:00
                                         </p>
-                                        <ul>
-                                            <li>Wait (<b>+1 hour</b>)</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/wait.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             22:00
                                         </p>
-                                        <b>Alice</b>
-                                        <ul>
-                                            <li>Watch TV or find cigarette, you can stop watching tv with her every night but it's recommended for money.</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/alice.png" class="circle small lg float-left">
+                                            Watch TV
+                                            <br>
+                                            <i>You can stop watching TV with her every night.</i>
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             23:00
                                         </p>
-                                        <b>Lisa</b>
-                                        <ul>
-                                            <li>Homework - mistake</li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/lisa.png" class="circle small lg float-left">
+                                            Help lisa with homework
+                                            <br>
+                                            <b>Make mistakes</b>
+                                        </div>
                                     </div>
                                     <div>
                                         <p class="lead">
                                             00:00
                                         </p>
-                                        <ul>
-                                            <li><b>Sleep</b></li>
-                                        </ul>
+                                        <div class="step">
+                                            <img src="./assets/img/max-room.png" class="circle small lg float-left">
+                                            <img src="./assets/img/sleep.png" class="circle small lg float-left">
+                                        </div>
                                     </div>
                                     <div class="text-right">
                                         <button type="button" class="button large tab-change" data-tab="day-next" data-tab-id="week-2-tab">Next</button>
@@ -1647,20 +1736,18 @@
                                         <p class="lead">
                                             End of walkthrough
                                         </p>
-                                        <ul>
-                                            <li>
+                                            <p>
                                                 <b>Walkthrough for getting enough money to buy Robe & Bikini before eric is completed at this point.</b>
-                                            </li>
-                                            <li>To see others event refer to characters in the menu (<a href="#lisa">Lisa</a>, <a href="#alice">Alice</a>, <a href="#mom">Mom</a>, <a
+                                            </p>
+                                            <p>To see others event refer to characters in the menu (<a href="#lisa">Lisa</a>, <a href="#alice">Alice</a>, <a href="#mom">Mom</a>, <a
                                                     href="#eric">Eric</a>) .
-                                            </li>
-                                            <li>
-                                                If you did everything correctly you should have 11/12 opportunities. Check <a href="#eric">Eric</a> for the last one.
-                                            </li>
-                                            <li>
+                                            </p>
+                                            <p>
+                                                If you did everything correctly you should have <b>11/12 opportunities</b>. Check <a href="#eric">Eric</a> for the last one.
+                                            </p>
+                                            <p>
                                                 Shyness level between below normal and very low.
-                                            </li>
-                                        </ul>
+                                            </p>
                                     </div>
                                     <div class="text-right">
                                         <button type="button" class="button large to-top">TO TOP</button>
@@ -1686,7 +1773,7 @@
                                 Stats :
                                 <ul>
                                     <li>
-                                        Relationship :
+                                        <b>Relationship</b> :
                                         <ul>
                                             <li>Helping her with homework for nothing will <b class="g">increase</b> relation. (<b class="r">Warning, doing so make it impossible to increase authority</b>)</li>
                                             <li>Helping her with homework by choosing <b>Let me do it by myself! <i>(without errors)</i></b> at least 6 times will <b class="g">increase</b> relation.</li>
@@ -1695,19 +1782,19 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        Authority :
+                                        <b>Authority</b> :
                                         <ul>
                                             <li>Make mistakes with homework, she'll get punished and your <b class="g">authority will increase</b> (only way)</li>
                                         </ul>
                                     </li>
                                     <li>
-                                        Mood :
+                                        <b>Mood</b> :
                                         <ul>
                                             <li> pretty easy, you're kind to her and it will <b class="g">increase</b>, you're not and it will <b class="r">decrease</b></li>
                                         </ul>
                                     </li>
                                     <li>
-                                        Shyness :
+                                        <b>Shyness</b> :
                                         <ul>
                                             <li>basically everytime (okay not all situations but most of them) you see her naked or embarrassed. note: shyness can only <b class="g">decrease</b>.</li>
                                         </ul>
@@ -1718,9 +1805,9 @@
                     </div>
                     <div>
                         <p class="lead">
-                            You reached relation : <b class="g">Warm</b> & <b class="g">good</b> mood (i think) ?
+                            You reached relation : <b class="g">Warm</b> & <b class="g">good</b> mood  ?
                         </p>
-                        <b>Talk when available - You have a strange appearance</b>
+                        <b>Talk when available - <code>You have a strange appearance</code></b>
                         <ul>
                             <li>
                                 Outcome if successful :
@@ -1749,7 +1836,7 @@
                                 Stats :
                                 <ul>
                                     <li>
-                                        Relationship :
+                                        <b>Relationship</b> :
                                         <ul>
                                             <li>2nd book you give her will <b class="g">increase</b> relation</li>
                                             <li>5th book (last one) you give her will <b class="g">increase</b> relation</li>
@@ -1758,19 +1845,19 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        Authority :
+                                        <b>Authority</b> :
                                         <ul>
                                             <li>Find cigarette and set her up, she'll get punished and your <b class="g">authority will increase</b> (only way)</li>
                                         </ul>
                                     </li>
                                     <li>
-                                        Mood :
+                                        <b>Mood</b> :
                                         <ul>
                                             <li> pretty easy, you're kind to her and it will <b class="g">increase</b>, you're not and it will <b class="r">decrease</b></li>
                                         </ul>
                                     </li>
                                     <li>
-                                        Shyness :
+                                        <b>Shyness</b> :
                                         <ul>
                                             <li>basically everytime (okay not all situations but most of them) you see her naked or embarrassed. note: shyness can only <b class="g">decrease</b>.</li>
                                         </ul>
@@ -1895,25 +1982,25 @@
                                 Stats :
                                 <ul>
                                     <li>
-                                        Relationship :
+                                        <b>Relationship</b> :
                                         <ul>
                                             <li>Can't be affected in current version.</li>
                                         </ul>
                                     </li>
                                     <li>
-                                        Authority :
+                                        <b>Authority</b> :
                                         <ul>
                                             <li>Can't be affected in current version.</li>
                                         </ul>
                                     </li>
                                     <li>
-                                        Mood :
+                                        <b>Mood</b> :
                                         <ul>
                                             <li> pretty easy, you're kind to her and it will <b class="g">increase</b>, you're not and it will <b class="r">decrease</b></li>
                                         </ul>
                                     </li>
                                     <li>
-                                        Shyness :
+                                        <b>Shyness</b> :
                                         <ul>
                                             <li>basically everytime (okay not all situations but most of them) you see her naked or embarrassed. note: shyness can only <b class="g">decrease</b>.</li>
                                         </ul>
@@ -1970,25 +2057,25 @@
                                 Stats :
                                 <ul>
                                     <li>
-                                        Relationship :
+                                        <b>Relationship</b> :
                                         <ul>
                                             <li>Day 11 - Dinner <i>(not sure if there's more)</i></li>
                                         </ul>
                                     </li>
                                     <li>
-                                        Authority :
+                                        <b>Authority</b> :
                                         <ul>
                                             <li>Can't be affected in current version.</li>
                                         </ul>
                                     </li>
                                     <li>
-                                        Mood :
+                                        <b>Mood</b> :
                                         <ul>
                                             <li>(not sure)</li>
                                         </ul>
                                     </li>
                                     <li>
-                                        Shyness :
+                                        <b>Shyness</b> :
                                         <ul>
                                             <li>Yeah... it's Eric he doesn't have any.</li>
                                         </ul>
